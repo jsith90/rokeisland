@@ -23,7 +23,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed; 
-    z-top: 99;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 
@@ -51,4 +51,12 @@ main {
 footer {
     background-color: orange;
 
+}
+
+/*  id selector */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
