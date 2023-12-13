@@ -53,7 +53,7 @@ h1{
     margin-bottom: 1em;
 } 
 
-.active:hover {
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
