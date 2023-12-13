@@ -40,20 +40,6 @@ h1{
     letter-spacing: 2px;
     color: #252525;
 }
-/* Main */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-
-}
-/* Footer */
-footer {
-    background-color: orange;
-
-}
-
-/*  id selector */
 
 #menu {
     font-size: 110%;
@@ -68,3 +54,27 @@ footer {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Navbar styles with dropdown toggle */
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a; 
+}
+
+/* Main */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+
+}
+/* Footer */
+footer {
+    background-color: orange;
+
+}
+
