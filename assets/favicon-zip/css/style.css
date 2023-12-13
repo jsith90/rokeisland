@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /* Asterick wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -29,5 +32,5 @@ main {
 /* Footer */
 footer {
     background-color: orange;
-    
+
 }
