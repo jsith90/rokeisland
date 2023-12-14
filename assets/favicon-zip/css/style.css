@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -29,7 +31,7 @@ h1, h2, h3{
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed; 
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -49,22 +51,22 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
-} 
+}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a; 
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -104,7 +106,7 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
-    font-size: 130%; 
+    font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -113,8 +115,38 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color:#ffffff;
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
+
+/* Reasons Section */
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    text-transform: uppercase;
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical> div,
+#benefits-mental> div {
+    line-height: 20px;
+    margin: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -135,6 +167,7 @@ main {
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -143,11 +176,12 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
-        display:flex;
+        display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -164,7 +198,7 @@ main {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-    margin-top: 79px;
+        margin-top: 79px;
     }
 
     /* Hero */
@@ -177,6 +211,7 @@ main {
 /* Media query: laptops and larger (992px and up) */
 
 @media screen and (min-width: 992px) {
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
