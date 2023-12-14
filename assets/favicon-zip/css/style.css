@@ -134,8 +134,8 @@ main {
     text-align: center;
 }
 
-#benefits-physical> div,
-#benefits-mental> div {
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin: 20px;
 }
@@ -164,6 +164,15 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* Times Section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center center/cover;
+}
+ #times div {
+    display: flex;
+    flex-wrap: wrap;
+ }
 
 /* Footer */
 #social-networks {
@@ -224,22 +233,22 @@ main {
     }
 
     /* Reasons Section */
-   #benefits-physical,
-   #benefits-mental {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-   } 
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
-   #benefits-physical > div,
-   #benefits-mental > div {
-    width: 75%;
-   }
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
 
-   #benefits-mental > div {
-    text-align: end;
-    align-self: flex-end;
-   }
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Media query: laptops and larger (992px and up) */
@@ -262,27 +271,27 @@ main {
 
     /* Reasons Section */
     #benefits {
-     display: flex;
-     flex-direction: row;
-    }     
+        display: flex;
+        flex-direction: row;
+    }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
     #benefits-image {
-        order:0;
+        order: 0;
     }
 
     #benefits-mental {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 
