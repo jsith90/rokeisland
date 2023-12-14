@@ -171,7 +171,8 @@ main {
 }
  #times div {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+
  }
 
 /* Footer */
